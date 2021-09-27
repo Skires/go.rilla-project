@@ -1,0 +1,1181 @@
+@font-face {
+  font-family: "Sequel Bold Head";
+  src: url("assests/Fonts/Bold.otf");
+}
+
+@font-face {
+  font-family: "Sequel Roman";
+  src: url("assests/Fonts/Roman.otf");
+}
+
+@font-face {
+  font-family: "Sequel Medium Disp";
+  src: url("assests/Fonts/Disp.otf");
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Sequel Bold Head", sans-serif;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Sequel Bold Head";
+  font-weight: bold;
+  font-size: 50px;
+  color: #13365c;
+  margin-top: 96px;
+  margin-bottom: 50px;
+}
+
+p {
+  font-weight: 415;
+  font-family: "Sequel Medium Disp";
+}
+
+li,
+span {
+  font-family: "Sequel Medium Disp";
+}
+
+header {
+  background-color: #dae0e5;
+  color: #13365c;
+}
+
+.container {
+  padding: 0px;
+  width: 100%;
+}
+
+.row p {
+  font-weight: 415;
+  font-size: 20px;
+  line-height: 24px;
+  color: #13365c;
+  margin-top: 29px;
+}
+
+/* NAV BAR */
+.main-nav {
+  display: flex;
+}
+
+.title a {
+  color: #13365c;
+  font-size: 28px;
+  text-decoration: none;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.nav-links a {
+  font-family: "Sequel Medium Disp";
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 23.6px;
+  letter-spacing: 4px;
+  color: #13365c;
+}
+
+.not-active {
+  opacity: 0.5;
+  padding-left: 88px;
+}
+
+/* ACOUSTIC MATERIALS */
+.acousitc-main p {
+  text-align: center;
+}
+
+/* BRANDS */
+.brands {
+  background-color: #dae0e5;
+  padding-top: 123px;
+  padding-bottom: 123px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* RUNNING PHOTO IMAGES */
+.photos {
+  margin-bottom: 123px;
+}
+
+.photo {
+  padding-right: 50px;
+  padding-bottom: 37px;
+}
+
+/*EXPERT SOLUTIONS*/
+.main-expert-img {
+  margin-right: 50px;
+}
+
+.expert-text li span {
+  position: relative;
+  left: -7px;
+}
+
+.acousticians {
+  background-color: #dae0e5;
+}
+
+.acousticians img {
+  margin-top: 9.8%;
+}
+
+.acoustic-img img {
+  margin-left: 50px;
+}
+
+.acousticians h2,
+li {
+  text-align: left;
+  color: #022449;
+}
+
+.acousticians li {
+  margin-left: 20px;
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 400;
+  color: #022449;
+}
+
+.acoustic-materials {
+  text-align: left;
+  margin-bottom: 123px;
+}
+
+.acoustic-materials-2 {
+  display: flex;
+  min-width: 100%;
+}
+
+.acoustic-ul {
+  margin-top: 64px;
+}
+
+.acoustic-materials h2 {
+  margin-bottom: 0;
+  color: #13365c;
+}
+
+.acoustic-materials p {
+  text-align: left;
+  font-size: 20px;
+  font-weight: 400;
+  color: #13365c;
+  max-width: 60%;
+}
+
+.acoustic-materials li {
+  text-align: left;
+}
+
+.acoustic-materials li span {
+  position: relative;
+  left: -7px;
+}
+
+/* HUNDREDS SUCCESSFUL PROJECTS SECTION */
+.projects-section li {
+  font-family: "Sequel Medium Disp";
+  color: #022449;
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+.col-3 {
+  max-width: 100%;
+}
+
+.projects-section li span {
+  position: relative;
+  left: -7px;
+}
+
+.projects-list {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 15px;
+  margin-bottom: 81px;
+}
+
+/* NEW PRODUCTS*/
+.new-products {
+  background-color: #dae0e5;
+}
+.new-products h2 {
+  font-weight: 700;
+  color: #13365c;
+  padding-top: 96px;
+  margin-bottom: 50px;
+}
+
+/* ACOUSTIC DESIGN < NEW PRODUCTS*/
+.acoustic-design h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.acoustic-design {
+  padding-bottom: 123px;
+}
+
+.design-text {
+  padding-bottom: 75px;
+  color: #13365c;
+  text-align: center;
+}
+
+.design-text p {
+  font-size: 25px;
+}
+
+.design-photo {
+  padding-right: 50px;
+  padding-bottom: 37px;
+}
+
+/* PHI ACOUSTICS */
+.phi-main {
+  display: flex;
+}
+.phi-acoustics {
+  text-align: left;
+}
+
+.first-left-section h2 {
+  margin-bottom: 0px;
+  margin-left: -2.5px;
+  text-align: left;
+}
+
+.first-phi-p {
+  line-height: 18.88px;
+  padding-right: 20px;
+}
+
+.phi-photos {
+  margin-top: 109px;
+}
+.first-left-section p {
+  font-family: "Sequel Roman";
+  font-weight: 310;
+  font-size: 16px;
+  text-align: left;
+  color: #13365c;
+  margin-right: 44px;
+}
+
+.phi-photo-1 {
+  margin-bottom: 31px;
+}
+
+.phi-photo-2 {
+  margin-bottom: 46px;
+}
+.second-phi-section {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 86px;
+}
+
+.second-left-section {
+  margin-right: 50px;
+  margin-top: -100px;
+}
+
+.second-right-section p {
+  font-family: "Sequel Roman";
+  font-weight: 310;
+  font-size: 16px;
+  text-align: left;
+  color: #13365c;
+}
+
+/* FOOTER */
+footer {
+  background-color: #13365c;
+  padding-top: 89px;
+  padding-bottom: 104px;
+}
+
+.footer-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer h4 {
+  font-family: "Sequel Medium Disp";
+  font-size: 25px;
+}
+
+footer p {
+  font-size: 20px;
+  font-family: "Sequel Roman";
+}
+
+footer p,
+h4 {
+  color: white;
+}
+
+.footer-main,
+p,
+h4 {
+  text-align: left;
+}
+
+/* GUESS WHICH POKEMON IT IS */
+.who-is-that-pokemon {
+  display: none;
+}
+
+/* MEDIA QUERIES */
+/* PHONES*/
+@media (min-width: 360px) and (max-width: 575px) {
+  .container {
+    width: 310px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  h4 {
+    font-size: 20px;
+  }
+
+  /* NAVBAR */
+  .title a {
+    font-size: 12px;
+  }
+
+  .nav-links a {
+    font-size: 10px;
+  }
+
+  .not-active {
+    padding-left: 6px;
+  }
+
+  /* ACOUSTIC MATERIAL*/
+
+  .acoustic-mat img {
+    width: 60%;
+  }
+
+  .material-img {
+    margin-bottom: 30px;
+    padding-right: 0;
+  }
+
+  .material-img-last {
+    padding-right: 0;
+  }
+
+  /* BRANDS */
+  .brand-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .brands img {
+    width: 90%;
+  }
+
+  .brand-img {
+    margin-bottom: 10px;
+  }
+
+  /* RUNNING PHOTO IMAGES */
+  .running-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .photo img {
+    width: 90%;
+  }
+
+  .photo {
+    padding-right: 0;
+    width: 90%;
+  }
+
+  /* EXPERT SOLUTION SECTION */
+  .main-expert-content {
+    flex-direction: column;
+  }
+
+  .main-expert-img {
+    margin-right: 0;
+  }
+
+  .main-expert-img img {
+    width: 100%;
+  }
+
+  .acoustic-materials p {
+    max-width: 100%;
+  }
+
+  .acoustic-materials-2 {
+    flex-direction: column;
+  }
+
+  .acoustic-img img {
+    width: 90%;
+    margin-left: 0;
+  }
+
+  .acoustic-ul {
+    margin-top: 0;
+  }
+
+  /* HUNDREDS SUCCESSFUL PROJECTS */
+  .projects-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 30px;
+  }
+
+  .project-ul {
+    margin-bottom: 20px;
+  }
+
+  .successful-photos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .successful-photos img {
+    width: 100%;
+  }
+
+  /* NEW PRODUCTS AND ACOUSTIC DESIGN */
+  .photos-new {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .photo-new {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .photo-new img {
+    width: 90%;
+    margin-bottom: 15px;
+  }
+
+  /* ACOUSTIC DESIGN < NEW PRODUCTS*/
+  .design-text p {
+    font-size: 13px;
+  }
+
+  .design-text {
+    padding-bottom: 10px;
+  }
+
+  .design-photos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .design-photo {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .design-photo img {
+    width: 90%;
+  }
+  /* PHI ACOUSTICS */
+  .phi-main {
+    flex-direction: column;
+  }
+
+  .first-left-section p {
+    padding-right: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+
+  .first-phi-p p {
+    margin-right: 0;
+  }
+
+  .phi-photos {
+    margin-top: 55px;
+  }
+
+  .phi-photos img {
+    width: 100%;
+  }
+
+  .phi-photo-2 {
+    margin-top: 80px;
+    margin-bottom: 46px;
+    width: 100%;
+  }
+
+  .second-phi-section {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  /* FOOTER */
+  footer {
+    padding-top: 30px;
+    padding-bottom: 10px;
+  }
+
+  footer p {
+    font-size: 15px;
+  }
+
+  .footer-info {
+    display: grid;
+    grid-gap: 10px;
+  }
+}
+/* PORTRAIT PHONES*/
+@media (min-width: 576px) and (max-width: 767px) {
+  h2 {
+    font-size: 40px;
+  }
+
+  /* NAVBAR */
+  .title a {
+    font-size: 18px;
+  }
+
+  .nav-links a {
+    font-size: 13px;
+  }
+
+  .not-active {
+    padding-left: 20px;
+  }
+
+  /* ACOUSTIC MATERIAL*/
+  .acoustic-mat img {
+    width: 60%;
+  }
+
+  .material-img {
+    margin-bottom: 30px;
+  }
+
+  /* BRANDS */
+  .brand-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .brand-img {
+    margin-bottom: 10px;
+  }
+
+  /* RUNNING PHOTO IMAGES */
+  .running-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .photo {
+    padding-right: 0;
+  }
+
+  /* EXPERT SOLUTION SECTION */
+  .main-expert-content {
+    flex-direction: column;
+  }
+
+  .main-expert-img {
+    margin-right: 0;
+  }
+
+  .main-expert-img img {
+    width: 100%;
+  }
+
+  .acoustic-materials p {
+    max-width: 100%;
+  }
+
+  .acoustic-materials-2 {
+    flex-direction: column;
+  }
+
+  .acoustic-img img {
+    width: 90%;
+    margin-left: 0;
+  }
+
+  .acoustic-ul {
+    margin-top: 0;
+  }
+
+  /* SUCCESSFUL PROJECTS */
+  .projects-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .successful-photos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  /* NEW PRODUCTS AND ACOUSTIC DESIGN */
+  .photos-new {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .photo-new img {
+    margin-bottom: 15px;
+  }
+
+  /* ACOUSTIC DESIGN < NEW PRODUCTS*/
+  .design-text p {
+    font-size: 22px;
+  }
+
+  .design-photos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .design-photo {
+    padding-right: 0;
+  }
+
+  /* PHI ACOUSTICS */
+  .phi-main {
+    flex-direction: column;
+  }
+
+  .first-left-section p {
+    padding-right: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+
+  .first-phi-p p {
+    margin-right: 0;
+  }
+
+  .phi-photos {
+    margin-top: 55px;
+  }
+
+  .phi-photos img {
+    width: 100%;
+  }
+
+  .phi-photo-2 {
+    margin-top: 80px;
+    margin-bottom: 46px;
+    width: 90%;
+  }
+
+  .second-phi-section {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  /* FOOTER */
+  .footer-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* TABLETS */
+@media (min-width: 768px) and (max-width: 991px) {
+  h2 {
+    font-size: 40px;
+  }
+
+  /* NAVBAR */
+  .title a {
+    font-size: 25px;
+  }
+
+  .nav-links a {
+    font-size: 15px;
+  }
+
+  .not-active {
+    padding-left: 20px;
+  }
+
+  /* ACOUSTIC MATERIAL*/
+  .acoustic-mat img {
+    width: 60%;
+  }
+
+  .material-img {
+    margin-bottom: 30px;
+  }
+
+  /* BRANDS */
+  .brand-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .brand-img {
+    margin-bottom: 10px;
+  }
+
+  /* RUNNING PHOTO IMAGES */
+  .running-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 40px;
+  }
+
+  .photo {
+    padding-right: 0;
+  }
+
+  /* EXPERT SOLUTION SECTION */
+  .main-expert-content {
+    flex-direction: column;
+  }
+
+  .main-expert-img {
+    margin-right: 0;
+  }
+
+  .main-expert-img img {
+    width: 100%;
+  }
+
+  .acoustic-materials p {
+    max-width: 100%;
+  }
+
+  .acoustic-materials-2 {
+    flex-direction: column;
+  }
+
+  .acoustic-img img {
+    width: 90%;
+    margin-left: 0;
+  }
+
+  .acoustic-ul {
+    margin-top: 0;
+  }
+
+  /* SUCCESSFUL PROJECTS */
+  .projects-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .successful-photos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 40px;
+  }
+
+  /* NEW PRODUCTS AND ACOUSTIC DESIGN */
+  .photos-new {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .photo-new img {
+    margin-bottom: 15px;
+  }
+
+  /* ACOUSTIC DESIGN < NEW PRODUCTS*/
+  .design-text p {
+    font-size: 22px;
+  }
+
+  .design-photos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .design-photos {
+    margin-left: 40px;
+  }
+
+  .design-photo {
+    padding-right: 0;
+  }
+
+  /* PHI ACOUSTICS */
+  .phi-main {
+    flex-direction: column;
+  }
+
+  .first-left-section p {
+    padding-right: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+
+  .first-phi-p p {
+    margin-right: 0;
+  }
+
+  .phi-photos {
+    margin-top: 55px;
+  }
+
+  .phi-photos img {
+    width: 100%;
+  }
+
+  .phi-photo-2 {
+    margin-top: 80px;
+    margin-bottom: 46px;
+    width: 90%;
+  }
+
+  .second-phi-section {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  /* FOOTER */
+  .footer-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* LAPTOPS */
+@media (min-width: 992px) and (max-width: 1100px) {
+  h2 {
+    font-size: 40px;
+  }
+
+  /* NAVBAR */
+  .title a {
+    font-size: 25px;
+  }
+
+  .nav-links a {
+    font-size: 15px;
+  }
+
+  .not-active {
+    padding-left: 20px;
+  }
+
+  /* ACOUSTIC MATERIAL*/
+  .acoustic-mat img {
+    width: 80%;
+  }
+
+  .material-img {
+    margin-bottom: 30px;
+  }
+
+  /* BRANDS */
+  .brand-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .brand-img {
+    margin-bottom: 10px;
+  }
+
+  /* RUNNING PHOTO IMAGES */
+
+  .running-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .photo {
+    padding-right: 0;
+    padding-left: 40px;
+  }
+
+  /* EXPERT SOLUTION SECTION */
+  .main-expert-content {
+    flex-direction: column;
+  }
+
+  .main-expert-img img {
+    width: 90%;
+  }
+
+  .main-expert-img {
+    margin-right: 0;
+  }
+
+  .acoustic-materials p {
+    max-width: 100%;
+  }
+
+  .acoustic-materials-2 {
+    flex-direction: column;
+  }
+
+  .acoustic-img img {
+    width: 90%;
+    margin-left: 0;
+  }
+
+  .acoustic-ul {
+    margin-top: 0;
+  }
+
+  /* HUNDREDS SUCCESSFUL PROJECTS */
+  .projects-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 40px;
+  }
+
+  .successful-photos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  /* NEW PRODUCTS AND ACOUSTIC DESIGN */
+  .photos-new {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .photo-new img {
+    margin-bottom: 15px;
+    width: 90%;
+  }
+
+  /* ACOUSTIC DESIGN < NEW PRODUCTS*/
+  .design-text p {
+    font-size: 22px;
+  }
+
+  .design-photos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 20px;
+  }
+
+  .design-photo {
+    padding-right: 0;
+  }
+
+  /* PHI ACOUSTICS */
+  .phi-main {
+    flex-direction: column;
+  }
+
+  .first-left-section p {
+    padding-right: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+
+  .first-phi-p p {
+    margin-right: 0;
+  }
+
+  .phi-photos {
+    margin-top: 55px;
+  }
+
+  .phi-photos img {
+    width: 100%;
+  }
+
+  .phi-photo-2 {
+    margin-top: 80px;
+    margin-bottom: 46px;
+    width: 90%;
+  }
+
+  .second-phi-section {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  /* FOOTER */
+  .footer-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 1101px) and (max-width: 1200px) {
+  h2 {
+    font-size: 40px;
+  }
+
+  /* NAVBAR */
+  .title a {
+    font-size: 25px;
+  }
+
+  .nav-links a {
+    font-size: 15px;
+  }
+
+  .not-active {
+    padding-left: 20px;
+  }
+
+  /* ACOUSTIC MATERIAL*/
+  .acoustic-mat img {
+    width: 80%;
+  }
+
+  .material-img {
+    margin-bottom: 30px;
+  }
+
+  /* BRANDS */
+  .brand-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .brand-img {
+    margin-bottom: 10px;
+  }
+
+  /* RUNNING PHOTO IMAGES */
+
+  .running-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .photo {
+    padding-right: 0;
+    padding-left: 40px;
+  }
+
+  /* EXPERT SOLUTION SECTION */
+  .main-expert-content {
+    flex-direction: column;
+  }
+
+  .main-expert-img img {
+    width: 90%;
+  }
+
+  .main-expert-img {
+    margin-right: 0;
+  }
+
+  .acoustic-materials p {
+    max-width: 100%;
+  }
+
+  .acoustic-materials-2 {
+    flex-direction: column;
+  }
+
+  .acoustic-img img {
+    width: 90%;
+    margin-left: 0;
+  }
+
+  .acoustic-ul {
+    margin-top: 0;
+  }
+
+  /* HUNDREDS SUCCESSFUL PROJECTS */
+  .projects-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 40px;
+  }
+
+  .successful-photos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  /* NEW PRODUCTS AND ACOUSTIC DESIGN */
+  .photos-new {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .photo-new img {
+    margin-bottom: 15px;
+    width: 90%;
+  }
+
+  /* ACOUSTIC DESIGN < NEW PRODUCTS*/
+  .design-text p {
+    font-size: 22px;
+  }
+
+  .design-photos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .design-photo {
+    padding-right: 0;
+  }
+
+  /* PHI ACOUSTICS */
+  .phi-main {
+    flex-direction: column;
+  }
+
+  .first-left-section p {
+    padding-right: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+
+  .first-phi-p p {
+    margin-right: 0;
+  }
+
+  .phi-photos {
+    margin-top: 55px;
+  }
+
+  .phi-photos img {
+    width: 100%;
+  }
+
+  .phi-photo-2 {
+    margin-top: 80px;
+    margin-bottom: 46px;
+    width: 90%;
+  }
+
+  .second-phi-section {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  /* FOOTER */
+  .footer-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
